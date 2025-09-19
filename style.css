@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #3d8d78;
+    
 }
 h1, h2, h3
 {
@@ -29,6 +30,7 @@ nav div {
 
     width: 50%;
     float: left;
+    border-style: inset dashed dashed inset ;
 }
 nav div h2 
 {
@@ -41,6 +43,7 @@ nav div h2
     list-style: none ;
     text-align: center;
     padding: 0;
+    
  }
  nav div ul li {
 
@@ -58,4 +61,21 @@ main#semi-elemant
 }
 article#color .red {
     color: #FF0000;
+}
+main#Bord
+{
+ border-style: inset dashed dashed inset ;
+}
+
+
+article#flexbox div#example {
+    width: 800px;
+    height: 400px;
+    display: flex;
+}
+
+article#flexbox div#example div {
+    height: 200px;
+    width: 200px;
+    background-color: #d1d1f0;
 }
